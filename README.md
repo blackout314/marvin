@@ -99,6 +99,9 @@ To start marvin-js run `$ node node_modules/marvin-js/bin/marvin.js`, or to make
   }
 }
 ```
+
+NB: You can start marvin-js with custom config.js in this way `$ node node_modules/marvin-js/bin/marvin.js --config=path/to/your/config.js`.
+
 ... so you can simply run `$ npm test`. Note, you cannot pass command line args using the `$ npm test` shortcut.
 
 ### Writing your tests
@@ -336,7 +339,7 @@ Url {
     query: null,
     pathname: '/mydir/mysubdir',
     ath: '/mydir/mysubdir',
-    href: 'https://myhost.com/mydir/mysubdir' 
+    href: 'https://myhost.com/mydir/mysubdir'
 }
 ```
 
